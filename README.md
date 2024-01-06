@@ -44,4 +44,4 @@ choose mine bc:
 - look nicer
 - make lib version
 - popular
-  
+- make text in center
