@@ -40,9 +40,9 @@ choose mine bc:
 # todo
 - [x] make all tmp files named after the word
 - [ ] less files
-- [ ] gui
+- [x] gui
 - [ ] look nicer
-- [ ] make lib version
+- [x] make lib version
 - [ ] popular
 - [ ] make text in center
 - [ ] config
