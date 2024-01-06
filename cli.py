@@ -1,9 +1,12 @@
-import pyttsx3
-from sys import argv
-from os import system as cmd
-from simplefuncs import *
-from imgmaker import makeimg
-from makevid import combine
+try:
+    import pyttsx3
+    from sys import argv
+    from os import system as cmd
+    from simplefuncs import *
+    from imgmaker import makeimg
+    from makevid import combine
+except ModuleNotFoundError:
+    quit(1212)
 
 tts = pyttsx3.init()
 args = argv
