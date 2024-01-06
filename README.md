@@ -34,6 +34,8 @@ choose mine bc:
 - kinda commented
 - fast
 - fast
+- cli
+- fast
 
 # todo
 - make all tmp files named after the word
