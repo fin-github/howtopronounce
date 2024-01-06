@@ -38,12 +38,12 @@ choose mine bc:
 - fast
 
 # todo
-- make all tmp files named after the word
-- less files
-- gui
-- look nicer
-- make lib version
-- popular
-- make text in center
-- config
-- comment
+- [x] make all tmp files named after the word
+- [ ] less files
+- [ ] gui
+- [ ] look nicer
+- [ ] make lib version
+- [ ] popular
+- [ ] make text in center
+- [ ] config
+- [ ] comment all stuff
