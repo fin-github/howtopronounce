@@ -45,3 +45,4 @@ choose mine bc:
 - make lib version
 - popular
 - make text in center
+- config
