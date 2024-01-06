@@ -22,6 +22,19 @@ py cli.py <insert your word>
 ```
 and it will do everything automatically
 
+# why
+choose mine bc:
+- fast
+- simple
+- uses 4 libs
+- fast
+- fast
+- fast
+- cool
+- kinda commented
+- fast
+- fast
+
 # todo
 - make all tmp files named after the word
 - less files
