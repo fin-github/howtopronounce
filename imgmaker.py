@@ -29,4 +29,5 @@ def makeimg(text:str, filename:str):
     draw.text((x, y), text, font=font, fill=font_color)
 
     # Save the image
+    print(f"Saving image as {filename}")
     image.save(filename)
