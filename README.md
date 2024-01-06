@@ -1,49 +1,12 @@
-# howtopronounce
-a automatic python program to do the following automatically:
-- Use TTS to pronounce a word correctly and put it in a mp4
-- Using the same video from above, adds a large text to the middle of the video showing the word.
+im too lazy to write docs
+here are the args:
 
-Example:
-![example video](https://github.com/fin-github/howtopronounce/raw/main/github/star%20my%20repo.mp4)
+def create(word:str, ttspath:str = None, imgpath:str = None, check:bool = False):
+    if ttspath is None: ttspath = f"tmp/{word}tts.mp3"
+    if ttspath is None: imgpath = f"tmp/{word}img.mp3"
 
-Alike: https://www.youtube.com/watch?v=v-n1vGeVIXo (but pronounces it right)
-# installation
-1. install python 11
-2. run start.bat
-# how to use
-1. run start.bat
-2. enter in word
-3. look in results folder
-4. credit me pls
-# cli
-to use it faster, or automated, run the following:
-```
-py cli.py <insert your word>
-```
-and it will do everything automatically
 
-# why
-choose mine bc:
-- fast
-- simple
-- uses 4 libs
-- fast
-- fast
-- fast
-- cool
-- kinda commented
-- fast
-- fast
-- cli
-- fast
-
-# todo
-- [x] make all tmp files named after the word
-- [ ] less files
-- [ ] gui
-- [ ] look nicer
-- [ ] make lib version
-- [ ] popular
-- [ ] make text in center
-- [ ] config
-- [ ] comment all stuff
+# check:
+gives 0 if successful
+1 if tts failed to save
+2 if frame/img failed to save
