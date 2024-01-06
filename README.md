@@ -46,3 +46,4 @@ choose mine bc:
 - popular
 - make text in center
 - config
+- comment
